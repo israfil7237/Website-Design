@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+*{
+    padding: 0 auto;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px 100px 50px 100px;
+    margin: 0px;
+    background: url(img/background.jpg);
+    height: 1200px;
+    background: cover;
+    
+}
+
+header{
+    background-color:#000000;
+    color: white;
+    padding: 8px 0px 6px 40px;
+    height: 65px;
+    border-radius: 1%;
+}
+
+header h1{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 25px;
+}
+nav img{
+
+    float: left;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    margin-right: 40px;
+    margin-bottom:2px;
+}
+
+#nav{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h_red{
+    background-color: blue;
+    padding: 10px 10px 20px 5px;
+}
+
+.redblock{
+    background-color: blue;
+    height: 4px;
+
+}
+
+.h_black:hover {
+    background-color:#808080;
+    padding: 10px 10px 20px 5px;
+}
+
+#body_heading{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top:0px;
+    font-size:60px;
+    padding-top:5%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/*---animation------*/
+
+#slider {
+    margin: auto;
+    width: 960px;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+#sliderbox {
+    position: relative;
+    width: 3840px;
+    animation: car 10s infinite;
+}
+
+#sliderbox img {
+    float: left;
+}
+
+#slider #sliderbox img {
+    height: 540px;
+    width: 960px;
+}
+
+@keyframes car {
+    0% {
+        left: 0px;
+    }
+    20% {
+        left: 0px;
+    }
+    25% {
+        left: -960px
+    }
+    45% {
+        left: -960px;
+    }
+    50% {
+        left: -1920px;
+    }
+    70% {
+        left: -1920px;
+    }
+    75% {
+        left: -2880px;
+    }
+    95% {
+        left: -2880px;
+    }
+    100% {
+        left: -3840px;
+    }
+}
+
+
+/*---project details----*/
+
+
+#before{
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    height: 520px;
+    width: 400px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+#after{
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    height: 520px;
+    width: 400px;
+    float: right;
+    border: 3px solid black;
+    border-radius: 5%;
+}
+
+
+.box{
+    width: 1200px;
+    height:550px;
+    border:8px solid blue;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    border-style:all;
+
+}
+.box1{
+    width: 350px;
+    height:310px;
+    border:4px solid blue;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius:5px;
+}
+.box2{
+    width: 1200px;
+    height:550px;
+    border:8px solid blue;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius: 50%;
+    border-style:dotted;
+}
+
+.box3 img{
+    width: 350px;
+    height:310px;
+    border:4px solid blue;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    border-radius:5px;
+    border-radius: 20%;
+}
+
+div p{
+    color: white;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
+
+/*----about page----*/
+
+
+div h2{
+    color: white;
+    text-align: center;
+    font-family: Oswald;
+
+}
+hr.style13 {
+  height: 10px;
+  box-shadow: 0 15px 11px -13px #fff inset;
+  color:gray;
+}
+
+/*---service page---*/
+#image{
+    margin: 0px 200px 0px 0px;
+    padding: 0px;
+    height: 400px;
+    width: 300px;
+    float: right;
+    border-radius: 30%;
+    border: 3px solid red;
+}
+#pic{
+    margin: 0px 200px 0px 100px;
+    padding: 0px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+#im{
+   border-radius: 40%;
+  border: 5px solid black;
+}
+#text{
+    margin: 50px 0px 0px 200px;
+    padding: 0px;
+    height: 520px;
+    width: 400px;
+    font-family: 'Slabo 27px', serif;
+}
+
+/*contact page*/
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font-family: 'Slabo 27px', serif;
+}
+
+#contact {
+  background: #FFFFE0;
+  padding: 25px;
+  margin: 200px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-family: Lobster;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Slabo 27px', serif;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #D3D3D3;
+}
+
+:-moz-placeholder {
+  color: #D3D3D3;
+}
+
+::-moz-placeholder {
+  color: #D3D3D3;
+}
+
+:-ms-input-placeholder {
+  color:#D3D3D3;
+}
+
+
+/*-------footer-------*/
+
+#container {
+    
+    margin-bottom: -36px;
+    color: white;
+}
+
+
+}
+#footer-spacer {
+    height: 40px;
+}
+
+.footer {
+    border-top: 3px solid white;
+    height: 30px;
+    color:white;
+    text-align: center;
+    
+}
